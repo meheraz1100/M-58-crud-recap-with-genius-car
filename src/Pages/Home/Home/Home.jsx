@@ -1,10 +1,15 @@
+import About from "../About/About";
 import Banner from "../Banner/Banner";
+import Products from "../Products/Products";
+import Servies from "../Services/Servies";
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <h1 className="text-3xl">this is home</h1>            
+            <About></About>
+            <Servies></Servies>
+            <Products></Products>   
         </div>
     );
 };
